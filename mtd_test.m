@@ -1,12 +1,12 @@
 %% NB: This file requires coupling.m by Mac Shine to run, available at https://github.com/macshine/coupling
-
+%
 % Reference: Shine JM, Koyejo O, Bell PT, Gorgolewski KJ, Gilat M, Poldrack RA. Estimation of dynamic functional connectivity using Multiplication of Temporal Derivatives. Neuroimage. 2015 Nov 15;122:399-407. doi: 10.1016/j.neuroimage.2015.07.064. Epub 2015 Jul 29. PMID: 26231247.
 
 
 
 
 
-cd 'Z:\PRJ-shine_hpc\Aphantasia_fMRI'
+cd 'Z:\PRJ-shine_hpc\Aphantasia_fMRI' %Set to your working directory
 addpath 'C:\Users\Chanelle\Documents\working\Scripts'
 addpath ''
 
