@@ -1,3 +1,7 @@
+%% NB: This file requires coupling.m by Mac Shine to run, available at https://github.com/macshine/coupling
+
+
+
 
 cd 'Z:\PRJ-shine_hpc\Aphantasia_fMRI'
 addpath 'C:\Users\Chanelle\Documents\working\Scripts'
