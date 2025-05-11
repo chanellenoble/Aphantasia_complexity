@@ -96,12 +96,3 @@ All_dsmtx(ID).dsmtx_places = dsmtx_all;
 clear dsmtx_all dsmtx_image dsmtx_control dsmtx_imagine
 
 end
-
-% %plot of dsmtx
-% figure
-% plot(dsmtx_image)
-% hold on
-% plot(dsmtx_control)
-% hold on
-% plot(dsmtx_imagine)
-% legend('dsmtx image', 'dsmtx control', 'dsmtx imagine')
