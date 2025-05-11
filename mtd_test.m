@@ -12,7 +12,7 @@ addpath ''
 
 
 %need to load 'All_onsets', 'All_dsmtx', & 'subject_id'
-load('All_onsets.mat')
+load('All_onsets.mat') 
 
 load('All_dsmtx.mat')
 
@@ -22,7 +22,7 @@ load('run_name.mat')
 
 
 
-% predefine some variables (note: you'll need to update these!)
+% predefine some variables 
 nSubs = 70;
 nNodes = 502;
 nEdges = (nNodes*nNodes-nNodes)/2;
