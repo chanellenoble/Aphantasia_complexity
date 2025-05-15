@@ -1,4 +1,4 @@
-% %Cleans preprocessed fMRI data and saves into a data structure 
+% %Saves preprocessed fMRI dta into a data structure 
 % 
 %% OUTPUT: 
 % 
