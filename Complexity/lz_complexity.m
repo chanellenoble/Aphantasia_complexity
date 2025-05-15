@@ -143,8 +143,8 @@
     beta_comp_faces = beta_comp_faces(:,any(beta_comp_faces));
     beta_comp_places = beta_comp_places(:,any(beta_comp_places));
     
-    delta_lz_faces_test = beta_comp_faces(3,:) - beta_comp_faces(2,:);
-    delta_lz_places_test = beta_comp_places(3,:) - beta_comp_places(2,:);
+  delta_lz_faces = beta_comp_faces(3,:) - beta_comp_faces(2,:);
+    delta_lz_places = beta_comp_places(3,:) - beta_comp_places(2,:);
 
 
 % -------------------------------------------------------------------------------------------------------------------
@@ -154,8 +154,8 @@
 
     iter = 5000;
     
-    aphan_lz = horzcat(delta_lz_faces_test(1,1:23),delta_lz_places_test(1,1:23));
-    ctrl_lz = horzcat(delta_lz_faces_test(1,24:end),delta_lz_places_test(1,24:end));
+    aphan_lz = horzcat(delta_lz_faces(1,1:23),delta_lz_places(1,1:23));
+    ctrl_lz = horzcat(delta_lz_faces(1,24:end),delta_lz_places(1,24:end));
     %% 1:23 --> aphantasics; 24:end --> controls
     
     size1 = size(aphan_lz,2);
