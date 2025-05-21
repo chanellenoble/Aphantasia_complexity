@@ -12,8 +12,7 @@
 
 
 %%LOADING IN VARIABLES
-cd 'Z:\PRJ-shine_hpc\Aphantasia_fMRI\'
-% cd '/Volumes/research-data/PRJ-shine_hpc/Aphantasia_fMRI'
+cd 'C:\Users\Chanelle\Sydney Uni Work\Neuroscience\Shine-Labs\Aphantasia Dataset'
 
 
     load All_dsmtx.mat
@@ -67,8 +66,8 @@ cd 'Z:\PRJ-shine_hpc\Aphantasia_fMRI\'
     
     temp_comp = [];
     
-    cd('Z:\PRJ-shine_hpc\Aphantasia_fMRI\timeseries')
-    % cd '/Volumes/research-data/PRJ-shine_hpc/Aphantasia_fMRI/timeseries'
+    cd('C:\Users\Chanelle\Sydney Uni Work\Neuroscience\Shine-Labs\Aphantasia Dataset\timeseries')
+
     
     for ID = 1:nSubs
             file_name = sprintf('%s%s%s%d%s%s',ac(ID,:),'_','run-',run_name1(ID),'_','timeseries.mat');
