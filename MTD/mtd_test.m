@@ -11,8 +11,8 @@
 
 %Set current working directory - Make sure to include folder containing
 %extra scripts needed
-    cd 'Z:\PRJ-shine_hpc\Aphantasia_fMRI'
-    addpath 'C:\Users\Chanelle\Documents\working\Scripts'
+    cd 'C:\Users\Chanelle\Sydney Uni Work\Neuroscience\Shine-Labs\Aphantasia Dataset'
+    addpath 'C:\Users\Chanelle\Sydney Uni Work\Neuroscience\Shine-Labs\Aphantasia Dataset\scripts'
 
 
 %Load dsmtx, list of subject IDs, and list of run names for subjet's first
