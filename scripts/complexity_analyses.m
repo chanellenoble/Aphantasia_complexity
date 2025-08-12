@@ -320,7 +320,7 @@ legend([h1 h2 h3], {'Aphantasic', 'Control', 'Hyperphantasic'},'Location', [0.51
 
 %% K - Spearman's Rho for all VVIQ and Complexity -- Imagery
 
-beta_comp_imagery = horzcat(beta_comp_places(2,:),beta_comp_faces(2,:));
+beta_comp_imagery = horzcat(beta_comp_places(3,:),beta_comp_faces(3,:));
 
 [rho_k, pval_k] = corr(vviq, beta_comp_imagery', 'Type', 'Spearman');
 
@@ -335,7 +335,7 @@ end
 
 perm_pval_k = mean(null_rho_k >= rho_k);
 
-%% ---- Make k vs VVIQ Figure ----
+%% ---- Make k vs VVIQ Figure Imagery ----
 
 
 figure
@@ -374,7 +374,7 @@ end
 perm_pval_k_perc = mean(null_rho_k_perc >= rho_k_perc);
 
     
-%% ---- Make k vs VVIQ Figure ----
+%% ---- Make k vs VVIQ Figure - Perception ----
 
 aphan_idx(1:2.*nSubs) = false;
 aphan_idx(1:nAphan) = true;
