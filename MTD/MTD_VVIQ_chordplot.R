@@ -13,7 +13,7 @@ edges$to <- gsub("_\\d+$", "", edges$to)
 
 
 
-# Map RSN codes to full names (customize this list as needed!)
+# Map RSN codes to full names
 rsn_rename <- c(
   RSN1 = "L-V",
   RSN2 = "L-M",
@@ -73,3 +73,4 @@ circos.trackPlotRegion(track.index = 1, panel.fun = function(x, y) {
   circos.text(mean(xlim), ylim[1], sector.index, facing = "clockwise",
               niceFacing = TRUE, adj = c(0, 0.5), cex = 1.2)
 }, bg.border = NA)
+
