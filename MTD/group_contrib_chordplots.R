@@ -1,3 +1,5 @@
+# Citation: Gu Z, Gu L, Eils R, Schlesner M, Brors B. circlize Implements and enhances circular visualization in R. Bioinformatics. 2014 Oct;30(19):2811-2. doi: 10.1093/bioinformatics/btu393. Epub 2014 Jun 14. PMID: 24930139
+
 library(circlize)
 library(scales)
 library(reshape2)
@@ -87,3 +89,4 @@ plot_chord <- function(filename, title_text) {
 plot_chord("C:/Users/Chanelle/OneDrive - The University of Sydney (Students)/Sydney Uni Work/Neuroscience/Shine-Labs/Aphantasia Manuscript/Figures-2025-07-24/Circlize/edges_for_circlize_aphan.csv", "Aphantasics - MTD Beta Contributions")
 plot_chord("C:/Users/Chanelle/OneDrive - The University of Sydney (Students)/Sydney Uni Work/Neuroscience/Shine-Labs/Aphantasia Manuscript/Figures-2025-07-24/Circlize/edges_for_circlize_ctrl.csv",  "Controls - MTD Beta Contributions")
 plot_chord("C:/Users/Chanelle/OneDrive - The University of Sydney (Students)/Sydney Uni Work/Neuroscience/Shine-Labs/Aphantasia Manuscript/Figures-2025-07-24/Circlize/edges_for_circlize_hyper.csv", "Hyperphantasics - MTD Beta Contributions")
+
