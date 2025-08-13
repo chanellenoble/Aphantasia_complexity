@@ -1,3 +1,5 @@
+# Citation: Gu Z, Gu L, Eils R, Schlesner M, Brors B. circlize Implements and enhances circular visualization in R. Bioinformatics. 2014 Oct;30(19):2811-2. doi: 10.1093/bioinformatics/btu393. Epub 2014 Jun 14. PMID: 24930139
+
 # Load required packages
 library(circlize)
 library(scales)
@@ -73,4 +75,5 @@ circos.trackPlotRegion(track.index = 1, panel.fun = function(x, y) {
   circos.text(mean(xlim), ylim[1], sector.index, facing = "clockwise",
               niceFacing = TRUE, adj = c(0, 0.5), cex = 1.2)
 }, bg.border = NA)
+
 
